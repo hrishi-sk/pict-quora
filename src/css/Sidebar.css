@@ -1,0 +1,15 @@
+.sidebar{
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+.sbo{
+    display: flex;
+    /* align-items: center; */
+    padding: 10px;
+    cursor: pointer;
+ }
+.sbo:hover{
+    background-color: lightgray;
+    border-radius: 5px;
+}
