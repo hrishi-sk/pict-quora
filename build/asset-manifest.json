@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pictoralive/static/css/main.9c84825e.chunk.css",
+    "main.js": "/pictoralive/static/js/main.ab65bdbf.chunk.js",
+    "main.js.map": "/pictoralive/static/js/main.ab65bdbf.chunk.js.map",
+    "runtime-main.js": "/pictoralive/static/js/runtime-main.67ad7eb5.js",
+    "runtime-main.js.map": "/pictoralive/static/js/runtime-main.67ad7eb5.js.map",
+    "static/js/2.1c64ad40.chunk.js": "/pictoralive/static/js/2.1c64ad40.chunk.js",
+    "static/js/2.1c64ad40.chunk.js.map": "/pictoralive/static/js/2.1c64ad40.chunk.js.map",
+    "index.html": "/pictoralive/index.html",
+    "static/css/main.9c84825e.chunk.css.map": "/pictoralive/static/css/main.9c84825e.chunk.css.map",
+    "static/js/2.1c64ad40.chunk.js.LICENSE.txt": "/pictoralive/static/js/2.1c64ad40.chunk.js.LICENSE.txt",
+    "static/media/l1.7f77aa7b.jpg": "/pictoralive/static/media/l1.7f77aa7b.jpg",
+    "static/media/l2.32e3956e.jpeg": "/pictoralive/static/media/l2.32e3956e.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.67ad7eb5.js",
+    "static/js/2.1c64ad40.chunk.js",
+    "static/css/main.9c84825e.chunk.css",
+    "static/js/main.ab65bdbf.chunk.js"
+  ]
+}

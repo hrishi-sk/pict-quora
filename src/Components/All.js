@@ -35,19 +35,19 @@ function All() {
                 <Route exact path="/cs">
                     <CS/>
                 </Route>
-                <Route exact path="/cs">
+                <Route exact path="/it">
                     <IT/>
                 </Route>
-                <Route exact path="/cs">
+                <Route exact path="/etc">
                     <ETC/>
                 </Route>
-                <Route exact path="/cs">
+                <Route exact path="/tp">
                     <TP/>
                 </Route>
-                <Route exact path="/cs">
+                <Route exact path="/clubs">
                     <Clubs/>
                 </Route>
-                <Route exact path="/cs">
+                <Route exact path="/hm">
                     <HM/>
                 </Route>
                 <Route exact path="/fb">
