@@ -54,7 +54,7 @@ function Question( {Id, question, quser} ) {
                     src={quser.photo}
                 />
                 <h5>{quser.displayName ? quser.displayName : quser.email}</h5>
-                <small>time</small>
+
             </div>
             <div className="body">
                 <div className="que">
@@ -94,10 +94,12 @@ function Question( {Id, question, quser} ) {
                             style={{
                             paddingBottom: "5px"}}>
                             { Id === answers.queID ? (
-                                <p>
-                                {answers.user.displayName ? answers.user.displayName: answers.user.email}{"    :  "}
-                                {answers.answer}
-                                </p>
+                                
+                                <><h4>
+                                        {answers.user.displayName ? answers.user.displayName : answers.user.email}{"    :  "}
+                                    </h4><p>
+                                            {answers.answer}
+                                        </p></>
                                 ):("")
                             }
                             </p>  

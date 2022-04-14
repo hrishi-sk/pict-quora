@@ -6,31 +6,31 @@ function Sidebar() {
     return (
         <div className="sidebar">
             <div className="sbo">
-                <Link to="/">All</Link>
+                <Link to="/" style={{ textDecoration: 'none', color:'brown',fontSize:'20px' }}>All</Link>
             </div>
             <div className="sbo">
-                <Link to="/fe">First Year</Link>
+                <Link to="/fe" style={{ textDecoration: 'none', color:'brown',fontSize:'20px' }}>First Year</Link>
             </div>
             <div className="sbo">
-                <Link to="/cs">CS Department</Link>
+                <Link to="/cs" style={{ textDecoration: 'none', color:'brown',fontSize:'20px' }}>CS Department</Link>
             </div>
             <div className="sbo">
-                <Link to="/it">IT Department</Link>
+                <Link to="/it" style={{ textDecoration: 'none', color:'brown',fontSize:'20px' }}>IT Department</Link>
             </div>
             <div className="sbo">
-                <Link to="/etc">E&TC Department</Link>
+                <Link to="/etc" style={{ textDecoration: 'none', color:'brown',fontSize:'20px' }}>E&TC Department</Link>
             </div>
             <div className="sbo">
-                <Link to="/tp">T&P Cell</Link>
+                <Link to="/tp" style={{ textDecoration: 'none', color:'brown',fontSize:'20px' }}>T&P Cell</Link>
             </div>
             <div className="sbo">
-                <Link to="/clubs">PICT Clubs</Link>
+                <Link to="/clubs" style={{ textDecoration: 'none', color:'brown',fontSize:'20px' }}>PICT Clubs</Link>
             </div>
             <div className="sbo">
-                <Link to="/hm">Hostel and Mess</Link>
+                <Link to="/hm" style={{ textDecoration: 'none', color:'brown',fontSize:'20px' }}>Hostel and Mess</Link>
             </div>
             <div className="sbo">
-                <Link to="/fb">Feedbacks</Link>
+                <Link to="/fb" style={{ textDecoration: 'none', color:'brown',fontSize:'20px' }}>Feedbacks</Link>
             </div>
         </div>
     )
