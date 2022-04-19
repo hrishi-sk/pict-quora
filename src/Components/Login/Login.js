@@ -61,7 +61,6 @@ function Login() {
                             </div>
                         </div>
                         <div className="button">
-                            <small>Forgot Password?</small>
                             <button  type = "submit" onClick={handlesignin}>Login</button>
                             <button onClick={handleregister}>Register</button>
                         </div>
