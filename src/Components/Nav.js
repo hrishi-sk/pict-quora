@@ -1,5 +1,4 @@
 import React, { useState} from 'react'
-import Search from '@material-ui/icons/Search'
 import { Avatar, Button, Input } from '@material-ui/core'
 import "../css/Nav.css"
 import { selectUser } from '../features/userSlice'
@@ -7,7 +6,6 @@ import { useSelector } from 'react-redux'
 import db, { auth } from '../firebase'
 import Modal from 'react-modal'
 import Img from './l2.jpeg'
-// import firebase from 'firebase'
 
 function Nav() {
 
@@ -22,7 +20,6 @@ function Nav() {
         setOpenModal(false)
         db.collection('question').add({
             question: input,
-            // timestamp:firebase.firestore.FieldVaue.serverTimestamp(),
             user: user,
             utag:tag
         })
@@ -43,10 +40,6 @@ function Nav() {
                     <img src={Img} alt='logo'></img>
                 </div>
                 <div className='icons'>
-                    <div className="search">
-                        <Search/>
-                        <input type="text" placeholder="Search"></input>
-                    </div>
                     <div className="rem">
                         <div className="avatar">
                             <Avatar onClick = {()=> auth.signOut()} src = {user.photo} />
@@ -67,13 +60,13 @@ function Nav() {
                             >
 
                                 <div className="mtitle">
-                                    <h4>Add Question</h4>
+                                    <h3>Add Question</h3>
                                     <div className="minfo">
                                         <Avatar
                                         className="avatar"
                                         src={user.photo}
                                         />
-                                        <p>{user.displayName ? user.displayName : user.email}</p>
+                                        <h4>{user.displayName ? user.displayName : user.email}</h4>
                                     </div>
                                     <div className="modal_input">
                                         <Input
@@ -83,8 +76,10 @@ function Nav() {
                                         type="text"
                                         placeholder="Ask your question..."
                                         />
-                                        <p>Please select a particular tag related to your question</p>
+                                        
                                         <div className="tag" onChange={(e)=> addtag(e.target.value)}>
+                                            <h5>Please select a particular tag related to your question</h5>
+                                            <div className='tags'>
                                             <input type="radio" value="fe" name="tag"/> First Year
                                             <input type="radio" value="cs" name="tag"/> CS                                            
                                             <input type="radio" value="it" name="tag"/> IT
@@ -92,6 +87,7 @@ function Nav() {
                                             <input type="radio" value="tp" name="tag"/> T&P
                                             <input type="radio" value="clubs" name="tag"/> Clubs
                                             <input type="radio" value="hm" name="tag"/> Hostel&Mess
+                                            </div>
                                         </div> 
                                     </div>
                                     <div className="modal_button">

@@ -11,6 +11,16 @@
     box-shadow: 0px 5px 8px -9px rgba(0,0,0,0.9);
 
 }
+.minfo{
+    display: flex;
+    margin-top: 20px;
+}
+
+.avatar{
+    margin-right: 10px;
+    margin-top: 1px;
+}
+
 .logo>img{
     height: 30px;
     margin-right: 50px;
@@ -54,6 +64,19 @@
 .rem > .MuiButton-root:hover{
     background-color: rgb(134, 60, 60);
 }
-.tag{
-    margin-right: 50px;
+.modal_input{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: auto;
 }
+.tag{
+    margin-top: 20px;  
+    margin-bottom: 20px;
+    
+}
+.tags{
+    display: flex;  
+    flex-direction: column;
+}
+
+
